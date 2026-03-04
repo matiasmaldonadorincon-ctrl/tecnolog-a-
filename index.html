@@ -5,7 +5,6 @@
     <title>El Arte del Cine</title>
 
     <style>
-        /* ESTILOS GENERALES */
         body {
             font-family: Arial, sans-serif;
             background-color: #f5f5f5;
@@ -20,7 +19,12 @@
             padding: 30px 0;
         }
 
-        /* MENÚ DE NAVEGACIÓN */
+        /* SUBTÍTULO DEL HEADER */
+        header p {
+            color: #ffcc00;
+            text-align: center;
+        }
+
         nav {
             background-color: #333;
             width: 100%;
@@ -47,7 +51,6 @@
             font-weight: bold;
         }
 
-        /* PSEUDO-CLASE */
         nav ul li a:hover {
             color: #ffcc00;
         }
@@ -75,7 +78,6 @@
             color: white;
         }
 
-        /* CLASES */
         .texto-grande {
             font-size: 20px;
         }
@@ -84,12 +86,10 @@
             text-align: center;
         }
 
-        /* ID */
         #autor {
             font-family: "Courier New", monospace;
         }
 
-        /* AGRUPACIÓN DE SELECTORES (SEMANA 4) */
         #autor p,
         .texto-grande {
             color: #555;
@@ -97,7 +97,6 @@
             word-spacing: 2px;
         }
 
-        /* TABLA */
         table {
             width: 100%;
             border-collapse: collapse;
@@ -124,10 +123,7 @@
     <h1>El Arte del Cine</h1>
     <p class="texto-grande">Descubre la historia, los géneros y la magia del cine.</p>
 </header>
-header p {
-    color: #ffcc00;
-    text-align: center;
-}
+
 <nav>
     <ul>
         <li><a href="#quees">Qué es el cine</a></li>
@@ -167,20 +163,7 @@ header p {
 </section>
 
 <section>
-    <h2>Enlaces</h2>
-    <ul>
-        <li><a href="#historia">Ir a la historia del cine (interno)</a></li>
-        <li>
-            <a href="https://es.wikipedia.org/wiki/Cine" target="_blank">
-                Más información sobre el cine (externo)
-            </a>
-        </li>
-    </ul>
-</section>
-
-<section>
     <h2 class="texto-centrado">Tabla de géneros del cine</h2>
-
     <table>
         <tr>
             <th>Género</th>
