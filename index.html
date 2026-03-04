@@ -20,17 +20,21 @@
             padding: 30px 0;
         }
 
+        /* MENÚ DE NAVEGACIÓN */
         nav {
             background-color: #333;
-            padding: 10px 0;
+            width: 100%;
+            height: 50px;
         }
 
         nav ul {
             list-style: none;
             display: flex;
             justify-content: center;
+            align-items: center;
             margin: 0;
             padding: 0;
+            height: 100%;
         }
 
         nav ul li {
@@ -43,6 +47,7 @@
             font-weight: bold;
         }
 
+        /* PSEUDO-CLASE */
         nav ul li a:hover {
             color: #ffcc00;
         }
@@ -70,7 +75,7 @@
             color: white;
         }
 
-        /* CLASE */
+        /* CLASES */
         .texto-grande {
             font-size: 20px;
         }
@@ -82,6 +87,14 @@
         /* ID */
         #autor {
             font-family: "Courier New", monospace;
+        }
+
+        /* AGRUPACIÓN DE SELECTORES (SEMANA 4) */
+        #autor p,
+        .texto-grande {
+            color: #555;
+            text-align: justify;
+            word-spacing: 2px;
         }
 
         /* TABLA */
@@ -154,7 +167,11 @@
     <h2>Enlaces</h2>
     <ul>
         <li><a href="#historia">Ir a la historia del cine (interno)</a></li>
-        <li><a href="https://es.wikipedia.org/wiki/Cine" target="_blank">Más sobre el cine (externo)</a></li>
+        <li>
+            <a href="https://es.wikipedia.org/wiki/Cine" target="_blank">
+                Más información sobre el cine (externo)
+            </a>
+        </li>
     </ul>
 </section>
 
