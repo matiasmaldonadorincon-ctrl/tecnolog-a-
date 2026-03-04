@@ -3,7 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <title>El Arte del Cine</title>
+
     <style>
+        /* SELECTORES (colores de fondo y texto) */
         body {
             font-family: Arial, sans-serif;
             background-color: #f5f5f5;
@@ -36,7 +38,7 @@
         }
 
         nav ul li a {
-            color: #fff;
+            color: white;
             text-decoration: none;
             font-weight: bold;
         }
@@ -49,7 +51,7 @@
             max-width: 900px;
             margin: 20px auto;
             padding: 20px;
-            background-color: #fff;
+            background-color: white;
             border-radius: 10px;
         }
 
@@ -65,15 +67,26 @@
             text-align: center;
             padding: 20px;
             background-color: #1c1c1c;
-            color: #fff;
+            color: white;
+        }
+
+        /* CLASS: cambiar tamaño del texto */
+        .texto-grande {
+            font-size: 20px;
+        }
+
+        /* ID: cambiar tipo de letra */
+        #autor {
+            font-family: "Courier New", monospace;
         }
     </style>
 </head>
+
 <body>
 
 <header>
     <h1>El Arte del Cine</h1>
-    <p>Descubre la historia, los géneros y la magia del cine.</p>
+    <p class="texto-grande">Descubre la historia, los géneros y la magia del cine.</p>
 </header>
 
 <nav>
@@ -87,20 +100,17 @@
 
 <section id="quees">
     <h2>¿Qué es el cine?</h2>
-    <p>
+    <p class="texto-grande">
         El cine es una forma de arte que combina imagen, sonido y narrativa
-        para contar historias y transmitir emociones. Es una de las
-        expresiones culturales más influyentes en la sociedad moderna.
+        para contar historias y transmitir emociones.
     </p>
 </section>
 
 <section id="historia">
     <h2>Historia del cine</h2>
     <p>
-        El cine comenzó a finales del siglo XIX con los hermanos Lumière,
-        quienes realizaron las primeras proyecciones públicas en 1895.
-        Desde entonces, el cine ha evolucionado con nuevas técnicas,
-        géneros y estilos.
+        El cine comenzó a finales del siglo XIX con los hermanos Lumière
+        y ha evolucionado con nuevas técnicas y estilos.
     </p>
 </section>
 
@@ -115,10 +125,6 @@
         <li>Terror</li>
         <li>Documental</li>
     </ul>
-    <p>
-        Cada género tiene su estilo particular y permite contar historias
-        que pueden emocionar, entretener o enseñar al espectador.
-    </p>
 </section>
 
 <section id="autor">
@@ -128,15 +134,12 @@
     <p><strong>Institución:</strong> Skolmi</p>
 </section>
 
-<!-- FOTO PERSONAL AL FINAL -->
 <section>
     <h2>Foto del autor</h2>
-    <img src=foto.jpeg
-style="width:200px; border-radius:50%; display:block; margin:20px auto;">
+    <img src="foto.jpeg" style="width:200px; border-radius:50%; display:block; margin:auto;">
 </section>
-
 <footer>
-    <p>© 2026 El Arte del Cine | Tarea de tecnología</p>
+    <p>© 2026 El Arte del Cin | Tarea de tecnología</p>
 </footer>
 
 </body>
